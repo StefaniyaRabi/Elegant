@@ -5,22 +5,35 @@
 
 body {
   font-family: 'OpenSans', sans-serif;
+  color: #505d68;
   text-align: center;
 }
 
 .wrapper {
-  max-width: 1280px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
 .container {
-  max-width: 770px;
+  max-width: 769px;
   margin: 0 auto;
 }
 
 .caption {
   font-size: 13px;
+  color: #d4af37;
   text-transform: uppercase;
+}
+
+.title {
+  font-size: 44px;
+  font-weight: 600;
+}
+
+.text {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.8;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -401,8 +414,27 @@ template {
 }
 
 .about-caption {
-  font-size: 13px;
-  color: #d4af37;
-  text-transform: uppercase;
+  margin-top: 85px;
+  margin-bottom: 0;
+}
+
+.about-title {
+  margin-top: 15px;
+}
+
+.about-text {
+  margin-top: 0;
+  margin-bottom: 70px;
+}
+
+.about-button {
+  font-size: 14px;
+  border: 2px #505d68 solid;
+  padding: 23px 48px 21px 49px;
+}
+
+.about-button {
+  text-decoration: none;
+  color: #505d68;
 }
 /*# sourceMappingURL=style.css.map */
