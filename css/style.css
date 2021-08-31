@@ -10,7 +10,7 @@ body {
 }
 
 .wrapper {
-  max-width: 1200px;
+  max-width: 1285px;
   margin: 0 auto;
 }
 
@@ -436,5 +436,29 @@ template {
 .about-button {
   text-decoration: none;
   color: #505d68;
+}
+
+.works-caption {
+  margin-top: 165px;
+  margin-bottom: 0;
+}
+
+.works-title {
+  margin-top: 25px;
+  margin-bottom: 82px;
+}
+
+.works-gallary {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 163px;
+}
+
+.works__item {
+  padding-right: 2px;
+  padding-left: 2px;
 }
 /*# sourceMappingURL=style.css.map */
