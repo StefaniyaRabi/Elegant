@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: 'OpenSans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #505d68;
   text-align: center;
 }
@@ -401,7 +401,7 @@ template {
   margin: 16px 0 0 48px;
 }
 
-.intro-title {
+.intro__title {
   font-size: 80px;
   font-weight: 300;
   color: #fff;
@@ -409,46 +409,43 @@ template {
   margin-top: 250px;
 }
 
-.intro-title span {
+.intro__title span {
   font-style: italic;
 }
 
-.about-caption {
+.about__caption {
   margin-top: 85px;
   margin-bottom: 0;
 }
 
-.about-title {
+.about__title {
   margin-top: 15px;
 }
 
-.about-text {
+.about__text {
   margin-top: 0;
   margin-bottom: 70px;
 }
 
-.about-button {
+.about__button {
   font-size: 14px;
   border: 2px #505d68 solid;
   padding: 23px 48px 21px 49px;
-}
-
-.about-button {
   text-decoration: none;
   color: #505d68;
 }
 
-.works-caption {
+.works__caption {
   margin-top: 165px;
   margin-bottom: 0;
 }
 
-.works-title {
+.works__title {
   margin-top: 25px;
   margin-bottom: 82px;
 }
 
-.works-gallary {
+.works__gallary {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -460,5 +457,67 @@ template {
 .works__item {
   padding-right: 2px;
   padding-left: 2px;
+}
+
+.team {
+  margin-bottom: 168px;
+}
+
+.team__caption {
+  margin-bottom: 0;
+}
+
+.team__title {
+  margin-top: 22px;
+  margin-bottom: 48px;
+}
+
+.team__text {
+  margin-bottom: 50px;
+}
+
+.team__group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.team__item {
+  background-color: #f9f9f9;
+  max-width: 246px;
+  width: 100%;
+  margin: 0 3px 6px;
+}
+
+.team__info {
+  margin-left: 15px;
+  text-align: left;
+}
+
+.team__info-caption {
+  font-size: 13px;
+  font-weight: 600;
+  color: #d4af37;
+  margin-top: 22px;
+  margin-bottom: 21px;
+  text-transform: uppercase;
+}
+
+.team__info-title {
+  font-size: 21px;
+  font-weight: 400;
+  margin-bottom: 38px;
+}
+
+.team__info-text {
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.8;
+  margin-bottom: 48px;
+}
+
+.team__info__photo {
+  width: 246;
+  height: 192px;
 }
 /*# sourceMappingURL=style.css.map */
