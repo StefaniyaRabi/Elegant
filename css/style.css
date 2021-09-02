@@ -594,4 +594,75 @@ template {
 .pl40 {
   padding-left: 40px;
 }
+
+.contacts {
+  margin-bottom: 80px;
+}
+
+.contacts__caption {
+  margin-bottom: 15px;
+}
+
+.contacts__title {
+  margin: 0 0 53px;
+}
+
+.contacts__map {
+  height: 295px;
+}
+
+.contacts__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #f9f9f9;
+  padding-bottom: 44px;
+}
+
+.contacts__item {
+  width: 50%;
+  padding: 0 75px;
+}
+
+.contacts__item-caption {
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 50px 0 40px;
+  margin: 0;
+}
+
+.contacts__item-text {
+  font-size: 19px;
+  font-weight: 300;
+  line-height: 1.8;
+}
+
+.pb45 {
+  padding-bottom: 45px;
+}
+
+.footer {
+  background-color: #eee;
+}
+
+.footer__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 40px 12px 35px;
+}
+
+.footer__info-text {
+  font-size: 16px;
+  font-weight: 300;
+}
 /*# sourceMappingURL=style.css.map */
