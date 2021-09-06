@@ -428,6 +428,10 @@ template {
   font-style: italic;
 }
 
+.intro__arrow {
+  display: none;
+}
+
 .about__caption {
   margin-top: 85px;
   margin-bottom: 0;
@@ -467,6 +471,9 @@ template {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-bottom: 163px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .works__item {
@@ -495,6 +502,8 @@ template {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .team__item {
@@ -563,6 +572,7 @@ template {
 .blog__item {
   text-align: left;
   height: 390px;
+  width: 100%;
 }
 
 .blog__item-bg {
@@ -589,6 +599,10 @@ template {
 
 .blog__item-button {
   padding: 18px 49px 19px 48px;
+}
+
+.blog__photo {
+  max-width: 103%;
 }
 
 .pl40 {
@@ -664,5 +678,38 @@ template {
 .footer__info-text {
   font-size: 16px;
   font-weight: 300;
+}
+
+@media (max-width: 768px) {
+  .header {
+    height: 1336px;
+    background: url(../img/bg-mobile.jpg) 0 0/100% 100% no-repeat;
+  }
+  .navbar {
+    height: 113px;
+    background-color: rgba(84, 90, 91, 0.9);
+  }
+  .navbar-logo__img {
+    max-width: 100%;
+    width: 366px;
+    height: 81px;
+    margin: 14px 0 0 25px;
+  }
+  .navbar-menu {
+    background-color: #253035;
+  }
+  .intro__title {
+    font-size: 95px;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    margin: 350px 0 49px;
+  }
+  .intro__arrow {
+    display: inline-block;
+    width: 65px;
+    height: 65px;
+    cursor: pointer;
+  }
 }
 /*# sourceMappingURL=style.css.map */
